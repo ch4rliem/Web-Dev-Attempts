@@ -93,9 +93,43 @@
 //     console.log(x);
 // }
 
-var students = ["John", "Jacbo", "Jingle","Heimer", "Smith"];
+// var students = ["John", "Jacbo", "Jingle","Heimer", "Smith"];
 
-for (var index = 0; index < students.length; index++){
-    console.log(students[index]);
+// for (var index = 0; index < students.length; index++){
+//     console.log(students[index]);
+// }
+
+// var total = 15;
+// for (var x = 0; x < total; x++){
+//     if(x%2 == 0){
+//         console.log(x + ' is even');
+//         } else {
+//         console.log(x + ' is odd');
+//             }
+//     }
+
+var s = "* ";
+var s2 = "* ";
+for (var x = 1; x <= 5; x++) {
+console.log(s);
+s += s2;
 }
+
+
+
+
+
+
+
+// for (var x=1; x <=100; x++){
+//     if (x%3==0 && x%5==0){
+//         console.log("CodeMonkey");
+//     } else if (x%3==0){
+//         console.log("Code");
+//     } else if (x%5==0){
+//         console.log("Monkey");
+//     } else {
+//         console.log(x);
+//     }  
+//     }
 
